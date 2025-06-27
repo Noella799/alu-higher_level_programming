@@ -1,3 +1,5 @@
 #!/usr/bin/python3
-number = 98
-print(f"{number:d} Battery street")
+for i in range(ord('a'), ord('z')+1):
+    ante = chr(i)
+    if ante not in "qe":
+        print("{:s}".format(ante), end="")
