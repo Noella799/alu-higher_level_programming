@@ -1,2 +1,2 @@
--- delete all record in the table with a value lower than 5 
-DELETE FROM second_table WHERE score <= 5;
+-- set the values of BOB to 10 
+UPDATE second_table SET score = 10 WHERE name = 'Bob';
